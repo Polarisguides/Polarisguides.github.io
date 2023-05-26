@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>HTML</title>
+      <link href="/2023/05/25/HTML/"/>
+      <url>/2023/05/25/HTML/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是HTML笔记"><a href="#这是HTML笔记" class="headerlink" title="这是HTML笔记"></a>这是HTML笔记</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> HTML </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java</title>
+      <link href="/2023/05/25/java/"/>
+      <url>/2023/05/25/java/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是java教程"><a href="#这是java教程" class="headerlink" title="这是java教程"></a>这是java教程</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python</title>
+      <link href="/2023/05/25/Python/"/>
+      <url>/2023/05/25/Python/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是Python教程"><a href="#这是Python教程" class="headerlink" title="这是Python教程"></a>这是Python教程</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签5 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux</title>
+      <link href="/2023/05/25/Linux/"/>
+      <url>/2023/05/25/Linux/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是Linux教程"><a href="#这是Linux教程" class="headerlink" title="这是Linux教程"></a>这是Linux教程</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签4 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>c++</title>
+      <link href="/2023/05/25/c/"/>
+      <url>/2023/05/25/c/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是c-教程"><a href="#这是c-教程" class="headerlink" title="这是c++教程"></a>这是c++教程</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> c++ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第二篇文章</title>
       <link href="/2023/05/24/2023-5-24-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/05/24/2023-5-24-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
