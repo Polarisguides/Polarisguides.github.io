@@ -3,7 +3,16 @@
   --trans-dark: rgba(25, 25, 25, 0.6);
   --border-style: 1px solid rgb(169, 169, 169);
   --backdrop-filter: blur(15px) saturate(150%);
+
+
+   /* 代码框行数背景色 */
+   --hlnumber-bg: #282c34;
+   /* 代码框顶部背景色 */
+   --hltools-bg: #1c1c1c;
+   /* 代码框背景色 */
+   --hl-bg: #282c34;
 }
+
 
 
 
@@ -451,6 +460,129 @@ svg.icon {
   background: #00000090;
 }
 
+/* #bingDayBox::before {
+  left: 34px;
+  content: "必应每日壁纸";
+}
+#bingHistoryBox::before {
+  left: 34px;
+  content: "必应历史壁纸";
+}
+#EEEDogBox::before {
+  left: 20px;
+  content: "EEEDog动漫壁纸";
+}
+#seovxBox::before {
+  left: 30px;
+  content: "seovx美女壁纸";
+}
+#picsumBox::before {
+  left: 24px;
+  content: "picsum随机壁纸";
+}
+#waiBizhiBox::before {
+  left: 34px;
+  content: "小歪高清壁纸";
+}
+#btstuBox::before {
+  left: 34px;
+  content: "博天随机壁纸";
+}
+#unsplashBox::before {
+  left: 15px;
+  content: "Unsplash随机壁纸";
+} */
+
+/* 帧率检测 */
+#fps {
+  position: fixed;
+  /* 指定位置 */
+  left: 10px;
+  bottom: 10px;
+  z-index: 1919810;
+}
+[data-theme="light"] #fps {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 4px;
+  border-radius: 4px;
+}
+[data-theme="dark"] #fps {
+  background-color: rgba(0, 0, 0, 0.72);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+
+.neko {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  right: 56px !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateX(50%);
+  font-family: var(--global-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--theme-color) !important;
+  display: none;
+}
+
+.neko::after {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");
+  background-size: contain;
+  z-index: 9999;
+  position: absolute;
+  right: 50%;
+  text-align: center;
+  line-height: 106px;
+  top: -115%;
+}
+
+.neko.showMsg::after {
+  content: attr(data-msg);
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.neko:hover::after {
+  content: attr(data-msg);
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.neko.fontColor::after {
+  color: #333;
+}
+
+/* 必应壁纸框 */
+/* #bingDayBox:hover,
+#bingHistoryBox:hover,
+#EEEDogBox:hover,
+#seovxBox:hover,
+#picsumBox:hover,
+#waiBizhiBox:hover,
+#btstuBox:hover,
+#unsplashBox:hover {
+  text-decoration: none !important;
+}
+
+.apiBox::before {
+  position: relative;
+  color: aliceblue;
+  border-radius: 5px;
+  top: 35px;
+  padding: 2px 5px;
+  background: #00000090;
+}
+
 #bingDayBox::before {
   left: 34px;
   content: "必应每日壁纸";
@@ -482,25 +614,6 @@ svg.icon {
 #unsplashBox::before {
   left: 15px;
   content: "Unsplash随机壁纸";
-}
+} */
 
-/* 帧率检测 */
-#fps {
-  position: fixed;
-  /* 指定位置 */
-  left: 10px;
-  bottom: 10px;
-  z-index: 1919810;
-}
-[data-theme="light"] #fps {
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: var(--backdrop-filter);
-  padding: 4px;
-  border-radius: 4px;
-}
-[data-theme="dark"] #fps {
-  background-color: rgba(0, 0, 0, 0.72);
-  backdrop-filter: var(--backdrop-filter);
-  padding: 4px;
-  border-radius: 4px;
-}
+
